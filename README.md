@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Mystery Word Game 🕵️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun social deduction game where players try to find the spies among them!
 
-## Available Scripts
+## 🎮 How to Play
 
-In the project directory, you can run:
+1. **Setup**: Choose a category and number of players (3-10)
+2. **Spy Selection**: Set how many spies you want (1 to half the players)
+3. **Role Assignment**: Each player secretly views their role
+4. **Discussion**: Players take turns describing the secret word
+5. **Detection**: Find the spies before time runs out!
 
-### `npm start`
+## 🎯 Game Rules
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Regular Players**: Get a secret word and must describe it without saying it
+- **Spies**: Only know the category and must try to blend in
+- **Win Conditions**: 
+  - Spies win if they guess the word correctly
+  - Others win if they identify all the spies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 File Structure
 
-### `npm test`
+```
+├── gameData.js          # Categories and utility functions
+├── gameUtils.js         # Game logic (word/spy selection)
+├── gameHooks.js         # Custom React hooks
+├── SettingsOverlay.jsx  # Settings component
+├── CategoryScreen.jsx   # Category selection
+├── GameScreens.jsx      # All game screen components
+└── SpyWordGame.jsx      # Main game component
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚡ Features
 
-### `npm run build`
+- **8 Categories**: Animals, Food, Movies, Places, Sports, Objects, Professions, Technology
+- **Multiple Spies**: Support for 1 to half the players as spies
+- **Customizable Timer**: 30 seconds to 5 minutes discussion time
+- **Game History**: Track previous games and results
+- **Sound Controls**: Toggle sound effects on/off
+- **Mobile Friendly**: Responsive design for all devices
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Import all the component files
+2. Make sure you have React and lucide-react installed
+3. Import and use the main `SpyWordGame` component
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Categories Available
 
-### `npm run eject`
+- **Animals** (30 words)
+- **Food** (30 words) 
+- **Movies** (30 words)
+- **Places** (30 words)
+- **Sports** (30 words)
+- **Objects** (30 words)
+- **Professions** (30 words)
+- **Technology** (30 words)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧 Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React (with hooks)
+- lucide-react (for icons)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Have fun finding the spies! 🎭
