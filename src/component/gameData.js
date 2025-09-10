@@ -45,9 +45,9 @@ export const categories = {
     'Kabir Singh', 'War', 'Student of the Year', 'Yeh Jawaani Hai Deewani', 'Bajrangi Bhaijaan', 'PK', '3 Idiots', 'My Name is Khan', 'Sholay', 'Mughal-e-Azam'
   ],
   'Indian Serials': [
-    'Sacred Games', 'Delhi Crime', 'Scam 1992', 'The Family Man', 'Arya', 'Mumbai Diaries 26/11', 'Rocket Boys', 'Farzi', 'Paatal Lok', 'Panchayat',
+    'Sacred Games', 'Delhi Crime', 'Scam 1992', 'The Family Man', 'Arya', 'Mumbai Diaries 26/11', 'Rocket Boys', 'SonyLIV Scam', 'Maharani', 'Tabbar',
     'Kyunki Saas Bhi Kabhi Bahu Thi', 'Kahaani Ghar Ghar Kii', 'Balika Vadhu', 'Naagin', 'Kasautii Zindagii Kay', 'Bade Achhe Lagte Hain', 'Pavitra Rishta', 'Saath Nibhaana Saathiya',
-    'Ramayan', 'Mahabharat', 'Taarak Mehta Ka Ooltah Chashmah', 'The Kapil Sharma Show', 'Crime Patrol', 'CID', 'Anupamaa', 'Yeh Rishta Kya Kehlata Hai', 'Kumkum Bhagya', 'Sasural Simar Ka', 'Diya Aur Baati Hum', 'Big Boss'
+    'Ramayan', 'Mahabharat', 'Taarak Mehta Ka Ooltah Chashmah', 'The Kapil Sharma Show', 'Crime Patrol', 'CID', 'Anupamaa', 'Yeh Rishta Kya Kehlata Hai', 'Kumkum Bhagya', 'Sasural Simar Ka', 'Diya Aur Baati Hum', 'Qubool Hai'
   ],
   'Indian Cricketers': [
     'Virat Kohli', 'MS Dhoni', 'Rohit Sharma', 'Hardik Pandya', 'KL Rahul', 'Jasprit Bumrah', 'Ravindra Jadeja', 'Rishabh Pant', 'Shikhar Dhawan', 'Bhuvneshwar Kumar',
@@ -98,6 +98,31 @@ export const categories = {
     'Paris', 'Rome', 'London', 'New York', 'Tokyo', 'Sydney', 'Barcelona', 'Amsterdam', 'Venice', 'Florence',
     'Athens', 'Santorini', 'Istanbul', 'Dubai', 'Singapore', 'Hong Kong', 'Bangkok', 'Bali', 'Maldives', 'Hawaii',
     'Los Angeles', 'Las Vegas', 'Miami', 'San Francisco', 'Toronto', 'Vancouver', 'Berlin', 'Munich', 'Vienna', 'Prague'
+  ],
+  'Superheroes': [
+    'Superman', 'Batman', 'Spider-Man', 'Wonder Woman', 'Iron Man', 'Captain America', 'Thor', 'Hulk', 'Flash', 'Aquaman',
+    'Green Lantern', 'Wolverine', 'Deadpool', 'Captain Marvel', 'Black Widow', 'Hawkeye', 'Ant-Man', 'Doctor Strange', 'Scarlet Witch', 'Vision',
+    'Black Panther', 'Falcon', 'Winter Soldier', 'Daredevil', 'Punisher', 'Ghost Rider', 'Silver Surfer', 'Fantastic Four', 'X-Men', 'Avengers'
+  ],
+  'Brands': [
+    'Apple', 'Google', 'Microsoft', 'Samsung', 'Nike', 'Adidas', 'McDonald\'s', 'Coca-Cola', 'Pepsi', 'Starbucks',
+    'Amazon', 'Facebook', 'Netflix', 'Disney', 'Sony', 'BMW', 'Mercedes', 'Ferrari', 'Tesla', 'Uber',
+    'Zara', 'H&M', 'IKEA', 'Walmart', 'Target', 'KFC', 'Pizza Hut', 'Domino\'s', 'Subway', 'Burger King'
+  ],
+  'Video Games': [
+    'Minecraft', 'Fortnite', 'PUBG', 'Among Us', 'GTA', 'FIFA', 'Call of Duty', 'Assassin\'s Creed', 'Super Mario', 'Pokemon',
+    'League of Legends', 'Dota', 'Counter-Strike', 'Valorant', 'Overwatch', 'Apex Legends', 'Rocket League', 'Fall Guys', 'Roblox', 'Clash of Clans',
+    'Candy Crush', 'Temple Run', 'Subway Surfers', 'Angry Birds', 'Plants vs Zombies', 'Tetris', 'Pac-Man', 'Street Fighter', 'Mortal Kombat', 'Tekken'
+  ],
+  'Marvel Characters': [
+    'Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Hawkeye', 'Spider-Man', 'Doctor Strange', 'Scarlet Witch', 'Vision',
+    'Black Panther', 'Falcon', 'Winter Soldier', 'Ant-Man', 'Wasp', 'Captain Marvel', 'Star-Lord', 'Gamora', 'Rocket', 'Groot',
+    'Drax', 'Nebula', 'Mantis', 'Wolverine', 'Deadpool', 'Storm', 'Cyclops', 'Jean Grey', 'Professor X', 'Magneto'
+  ],
+  'DC Characters': [
+    'Superman', 'Batman', 'Wonder Woman', 'Flash', 'Aquaman', 'Green Lantern', 'Cyborg', 'Shazam', 'Green Arrow', 'Supergirl',
+    'Batgirl', 'Robin', 'Nightwing', 'Red Hood', 'Harley Quinn', 'Joker', 'Lex Luthor', 'Catwoman', 'Poison Ivy', 'Two-Face',
+    'Penguin', 'Riddler', 'Bane', 'Deathstroke', 'Darkseid', 'Doomsday', 'Brainiac', 'General Zod', 'Sinestro', 'Black Adam'
   ]
 };
 
