@@ -29,7 +29,7 @@ export const selectSpies = (playerCount, spyCount, gameHistory = []) => {
   // Filter out recent spies if we have enough alternatives
   let availableIndices = allIndices.filter(index => !recentSpyIndices.includes(index));
   
-  // If we filtered out too many players, use all indices
+  // If we filtered out too many players, 
   if (availableIndices.length < actualSpyCount) {
     availableIndices = [...allIndices];
   }
