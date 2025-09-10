@@ -21,20 +21,10 @@ const CategoryScreen = ({ onCategorySelect, onBack }) => {
             <button
               key={category}
               onClick={() => onCategorySelect(category)}
-              className="bg-gray-900/50 hover:bg-red-900/30 border border-gray-700/50 hover:border-red-600/50 rounded-2xl p-6 transition-all transform hover:scale-105 text-left"
+              className="bg-gray-900/50 hover:bg-red-900/30 border border-gray-700/50 hover:border-red-600/50 rounded-2xl p-6 transition-all transform hover:scale-105 text-center"
             >
               <h3 className="text-xl font-bold text-white mb-2">{category}</h3>
-              <p className="text-gray-400 text-sm mb-3">{words.length} words available</p>
-              <div className="flex flex-wrap gap-1">
-                {words.slice(0, 6).map((word, i) => (
-                  <span key={i} className="bg-red-900/30 text-red-300 px-2 py-1 rounded-lg text-xs">
-                    {word}
-                  </span>
-                ))}
-                {words.length > 6 && (
-                  <span className="text-gray-500 text-xs px-2 py-1">+{words.length - 6} more</span>
-                )}
-              </div>
+              <p className="text-gray-400 text-sm">{words.length} words available</p>
             </button>
           ))}
         </div>
