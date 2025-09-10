@@ -4,11 +4,6 @@ export const categories = {
     'Coffee', 'Tea', 'Bread', 'Rice', 'Chicken', 'Fish', 'Salad', 'Soup', 'Cheese', 'Orange',
     'Mango', 'Grapes', 'Strawberry', 'Donut', 'Pancake', 'Noodles', 'Taco', 'Sushi', 'Popcorn', 'Honey'
   ],
-  'Movies Genre': [
-    'Superhero', 'Comedy', 'Horror', 'Romance', 'Action', 'Cartoon', 'Thriller', 'Musical', 'Drama', 'Adventure',
-    'Sci-Fi', 'Fantasy', 'Mystery', 'Western', 'Documentary', 'Animation', 'War', 'Crime', 'Family', 'Biography',
-    'Sports', 'Historical', 'Disaster', 'Zombie', 'Vampire', 'Space', 'Time Travel', 'Magic', 'Pirate', 'Ninja'
-  ],
   'Objects': [
     'Phone', 'Car', 'Book', 'Chair', 'Computer', 'Watch', 'Camera', 'Guitar', 'Bicycle', 'Umbrella',
     'Key', 'Mirror', 'Lamp', 'Pen', 'Glasses', 'Bag', 'Shoes', 'Hat', 'Clock', 'Pillow',
@@ -25,7 +20,7 @@ export const categories = {
     '3D Printer', 'Electric Car', 'Solar Panel', 'Fitness Tracker', 'Smart TV', 'Voice Assistant', 'Wireless Charger', 'Podcast', 'Emoji', 'QR Code'
   ],
   'Indian Serials': [
-    'Sacred Games', 'Delhi Crime', 'Scam 1992', 'The Family Man', 'Arya', 'Mumbai Diaries 26/11', 'Rocket Boys', 'SonyLIV Scam', 'Maharani', 'Tabbar',
+    'Sacred Games', 'Delhi Crime', 'Scam 1992', 'The Family Man', 'Arya', 'Mumbai Diaries 26/11', 'Rocket Boys', 'Swaragni', 'Maharani', 'Tabbar',
     'Kyunki Saas Bhi Kabhi Bahu Thi', 'Kahaani Ghar Ghar Kii', 'Balika Vadhu', 'Naagin', 'Kasautii Zindagii Kay', 'Bade Achhe Lagte Hain', 'Pavitra Rishta', 'Saath Nibhaana Saathiya',
     'Ramayan', 'Mahabharat', 'Taarak Mehta Ka Ooltah Chashmah', 'The Kapil Sharma Show', 'Crime Patrol', 'CID', 'Anupamaa', 'Yeh Rishta Kya Kehlata Hai', 'Kumkum Bhagya', 'Sasural Simar Ka', 'Diya Aur Baati Hum', 'Qubool Hai'
   ],
