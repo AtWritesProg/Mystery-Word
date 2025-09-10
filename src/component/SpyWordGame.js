@@ -41,7 +41,8 @@ const SpyWordGame = () => {
 
   const startGame = () => {
     const randomWord = selectRandomWord(selectedCategory, gameHistory);
-    const randomSpies = selectSpies(playerCount, spyCount);
+    // Pass gameHistory to selectSpies to avoid consecutive spy assignments
+    const randomSpies = selectSpies(playerCount, spyCount, gameHistory);
     
     setCurrentWord(randomWord);
     setSpyIndices(randomSpies);

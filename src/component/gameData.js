@@ -38,6 +38,66 @@ export const categories = {
     'Smartphone', 'Laptop', 'Internet', 'Robot', 'Drone', 'VR Headset', 'AI Assistant', 'Smart Watch', 'Tablet', 'Gaming Console',
     'Satellite', 'GPS', 'Bluetooth', 'WiFi', 'Social Media', 'Video Call', 'Cloud Storage', 'Cryptocurrency', 'Streaming', 'App Store',
     '3D Printer', 'Electric Car', 'Solar Panel', 'Fitness Tracker', 'Smart TV', 'Voice Assistant', 'Wireless Charger', 'Podcast', 'Emoji', 'QR Code'
+  ],
+  'Indian Movies': [
+    'Dangal', 'Baahubali', 'KGF', 'RRR', 'Pushpa', 'Lagaan', 'Taare Zameen Par', 'Zindagi Na Milegi Dobara', 'Queen', 'Pink',
+    'Andhadhun', 'Article 15', 'Tumhari Sulu', 'Stree', 'Badhaai Ho', 'Uri', 'Mission Mangal', 'Super 30', 'Chhichhore', 'Gully Boy',
+    'Kabir Singh', 'War', 'Student of the Year', 'Yeh Jawaani Hai Deewani', 'Bajrangi Bhaijaan', 'PK', '3 Idiots', 'My Name is Khan', 'Sholay', 'Mughal-e-Azam'
+  ],
+  'Indian Serials': [
+    'Sacred Games', 'Delhi Crime', 'Scam 1992', 'The Family Man', 'Arya', 'Mumbai Diaries 26/11', 'Rocket Boys', 'Farzi', 'Paatal Lok', 'Panchayat',
+    'Kyunki Saas Bhi Kabhi Bahu Thi', 'Kahaani Ghar Ghar Kii', 'Balika Vadhu', 'Naagin', 'Kasautii Zindagii Kay', 'Bade Achhe Lagte Hain', 'Pavitra Rishta', 'Saath Nibhaana Saathiya',
+    'Ramayan', 'Mahabharat', 'Taarak Mehta Ka Ooltah Chashmah', 'The Kapil Sharma Show', 'Crime Patrol', 'CID', 'Anupamaa', 'Yeh Rishta Kya Kehlata Hai', 'Kumkum Bhagya', 'Sasural Simar Ka', 'Diya Aur Baati Hum', 'Big Boss'
+  ],
+  'Indian Cricketers': [
+    'Virat Kohli', 'MS Dhoni', 'Rohit Sharma', 'Hardik Pandya', 'KL Rahul', 'Jasprit Bumrah', 'Ravindra Jadeja', 'Rishabh Pant', 'Shikhar Dhawan', 'Bhuvneshwar Kumar',
+    'Yuzvendra Chahal', 'Mohammed Shami', 'Cheteshwar Pujara', 'Ajinkya Rahane', 'Shreyas Iyer', 'Suryakumar Yadav', 'Ishan Kishan', 'Dinesh Karthik', 'Ravichandran Ashwin', 'Umesh Yadav',
+    'Sachin Tendulkar', 'Rahul Dravid', 'Sourav Ganguly', 'VVS Laxman', 'Anil Kumble', 'Kapil Dev', 'Sunil Gavaskar', 'Virender Sehwag', 'Yuvraj Singh', 'Harbhajan Singh'
+  ],
+  'Famous Indian People': [
+    'APJ Abdul Kalam', 'Mahatma Gandhi', 'Jawaharlal Nehru', 'Indira Gandhi', 'Subhas Chandra Bose', 'Bhagat Singh', 'Rani Lakshmibai', 'Chandragupta Maurya', 'Akbar', 'Shah Rukh Khan',
+    'Amitabh Bachchan', 'Priyanka Chopra', 'Deepika Padukone', 'Aamir Khan', 'Salman Khan', 'AR Rahman', 'Lata Mangeshkar', 'Ratan Tata', 'Mukesh Ambani', 'Sundar Pichai',
+    'Satya Nadella', 'Kiran Mazumdar Shaw', 'Mary Kom', 'PV Sindhu', 'Saina Nehwal', 'Milkha Singh', 'Sania Mirza', 'Vishwanathan Anand', 'CV Raman', 'Homi Bhabha'
+  ],
+  'Indian Food': [
+    'Biryani', 'Butter Chicken', 'Dosa', 'Idli', 'Samosa', 'Pani Puri', 'Chole Bhature', 'Rajma Chawal', 'Dal Makhani', 'Tandoori Chicken',
+    'Masala Chai', 'Gulab Jamun', 'Rasgulla', 'Jalebi', 'Kheer', 'Halwa', 'Pakora', 'Dhokla', 'Vada Pav', 'Misal Pav',
+    'Rogan Josh', 'Vindaloo', 'Fish Curry', 'Appam', 'Puttu', 'Upma', 'Poha', 'Aloo Paratha', 'Makki Ki Roti', 'Sarson Ka Saag'
+  ],
+  'Indian States': [
+    'Maharashtra', 'Karnataka', 'Tamil Nadu', 'Kerala', 'Gujarat', 'Rajasthan', 'Punjab', 'Haryana', 'Uttar Pradesh', 'Madhya Pradesh',
+    'Bihar', 'West Bengal', 'Odisha', 'Jharkhand', 'Chhattisgarh', 'Andhra Pradesh', 'Telangana', 'Assam', 'Tripura', 'Meghalaya',
+    'Manipur', 'Mizoram', 'Nagaland', 'Arunachal Pradesh', 'Sikkim', 'Himachal Pradesh', 'Uttarakhand', 'Jammu and Kashmir', 'Ladakh', 'Goa'
+  ],
+  'Hollywood Movies': [
+    'Avengers', 'Titanic', 'Avatar', 'Star Wars', 'Jurassic Park', 'The Dark Knight', 'Inception', 'Interstellar', 'The Matrix', 'Gladiator',
+    'Forrest Gump', 'The Godfather', 'Pulp Fiction', 'Fight Club', 'The Shawshank Redemption', 'Goodfellas', 'Scarface', 'Casablanca', 'Gone with the Wind', 'The Wizard of Oz',
+    'E.T.', 'Jaws', 'Raiders of the Lost Ark', 'Back to the Future', 'Terminator', 'Alien', 'Blade Runner', 'The Lion King', 'Toy Story', 'Finding Nemo'
+  ],
+  'Hollywood Actors': [
+    'Leonardo DiCaprio', 'Tom Hanks', 'Will Smith', 'Johnny Depp', 'Brad Pitt', 'Robert Downey Jr', 'Chris Evans', 'Chris Hemsworth', 'Scarlett Johansson', 'Jennifer Lawrence',
+    'Meryl Streep', 'Angelina Jolie', 'Sandra Bullock', 'Julia Roberts', 'Tom Cruise', 'Denzel Washington', 'Morgan Freeman', 'Samuel L Jackson', 'Matt Damon', 'Ben Affleck',
+    'Ryan Reynolds', 'Ryan Gosling', 'Christian Bale', 'Hugh Jackman', 'Chris Pratt', 'Mark Wahlberg', 'Dwayne Johnson', 'Vin Diesel', 'Jason Statham', 'Keanu Reeves'
+  ],
+  'TV Series': [
+    'Game of Thrones', 'Breaking Bad', 'Friends', 'The Office', 'Stranger Things', 'Money Heist', 'Squid Game', 'The Crown', 'Sherlock', 'House of Cards',
+    'Narcos', 'The Walking Dead', 'Lost', 'Prison Break', 'How I Met Your Mother', 'The Big Bang Theory', 'Modern Family', 'Grey\'s Anatomy', 'Suits', 'Dexter',
+    'Westworld', 'Black Mirror', 'The Mandalorian', 'The Boys', 'Ozark', 'Dark', 'Peaky Blinders', 'Vikings', 'Better Call Saul', 'The Witcher'
+  ],
+  'Football Players': [
+    'Lionel Messi', 'Cristiano Ronaldo', 'Neymar', 'Kylian Mbappe', 'Erling Haaland', 'Kevin De Bruyne', 'Virgil van Dijk', 'Sadio Mane', 'Mohamed Salah', 'Robert Lewandowski',
+    'Karim Benzema', 'Luka Modric', 'Toni Kroos', 'Sergio Ramos', 'Marcelo', 'Casemiro', 'N\'Golo Kante', 'Paul Pogba', 'Harry Kane', 'Raheem Sterling',
+    'Jadon Sancho', 'Phil Foden', 'Mason Mount', 'Bukayo Saka', 'Pedri', 'Gavi', 'Vinicius Jr', 'Rodrygo', 'Jude Bellingham', 'Alphonso Davies'
+  ],
+  'Foreign Food': [
+    'Sushi', 'Ramen', 'Tacos', 'Burrito', 'Paella', 'Pasta', 'Risotto', 'Croissant', 'Baguette', 'Kimchi',
+    'Pad Thai', 'Tom Yum', 'Pho', 'Banh Mi', 'Dim Sum', 'Peking Duck', 'Shawarma', 'Falafel', 'Hummus', 'Moussaka',
+    'Pastrami', 'Bagel', 'Pancakes', 'Waffles', 'Fish and Chips', 'Bangers and Mash', 'Haggis', 'Pierogi', 'Goulash', 'Schnitzel'
+  ],
+  'Famous Places': [
+    'Paris', 'Rome', 'London', 'New York', 'Tokyo', 'Sydney', 'Barcelona', 'Amsterdam', 'Venice', 'Florence',
+    'Athens', 'Santorini', 'Istanbul', 'Dubai', 'Singapore', 'Hong Kong', 'Bangkok', 'Bali', 'Maldives', 'Hawaii',
+    'Los Angeles', 'Las Vegas', 'Miami', 'San Francisco', 'Toronto', 'Vancouver', 'Berlin', 'Munich', 'Vienna', 'Prague'
   ]
 };
 
