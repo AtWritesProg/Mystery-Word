@@ -1,28 +1,13 @@
 export const categories = {
-  'Animals': [
-    'Elephant', 'Lion', 'Penguin', 'Dolphin', 'Tiger', 'Monkey', 'Eagle', 'Shark', 'Giraffe', 'Bear',
-    'Zebra', 'Kangaroo', 'Whale', 'Snake', 'Butterfly', 'Horse', 'Dog', 'Cat', 'Rabbit', 'Wolf',
-    'Fox', 'Deer', 'Owl', 'Parrot', 'Turtle', 'Frog', 'Crocodile', 'Hippo', 'Rhino', 'Panda'
-  ],
   'Food': [
     'Pizza', 'Burger', 'Ice Cream', 'Chocolate', 'Apple', 'Sandwich', 'Pasta', 'Cookie', 'Cake', 'Banana',
     'Coffee', 'Tea', 'Bread', 'Rice', 'Chicken', 'Fish', 'Salad', 'Soup', 'Cheese', 'Orange',
     'Mango', 'Grapes', 'Strawberry', 'Donut', 'Pancake', 'Noodles', 'Taco', 'Sushi', 'Popcorn', 'Honey'
   ],
-  'Movies': [
+  'Movies Genre': [
     'Superhero', 'Comedy', 'Horror', 'Romance', 'Action', 'Cartoon', 'Thriller', 'Musical', 'Drama', 'Adventure',
     'Sci-Fi', 'Fantasy', 'Mystery', 'Western', 'Documentary', 'Animation', 'War', 'Crime', 'Family', 'Biography',
     'Sports', 'Historical', 'Disaster', 'Zombie', 'Vampire', 'Space', 'Time Travel', 'Magic', 'Pirate', 'Ninja'
-  ],
-  'Places': [
-    'Beach', 'Mountain', 'Forest', 'Desert', 'City', 'Hospital', 'School', 'Park', 'Airport', 'Mall',
-    'Library', 'Restaurant', 'Hotel', 'Museum', 'Zoo', 'Stadium', 'Theater', 'Bank', 'Church', 'Market',
-    'Bridge', 'Island', 'Cave', 'Waterfall', 'Garden', 'Factory', 'Office', 'Gym', 'Pool', 'Farm'
-  ],
-  'Sports': [
-    'Football', 'Basketball', 'Tennis', 'Swimming', 'Running', 'Cricket', 'Baseball', 'Soccer', 'Boxing', 'Golf',
-    'Volleyball', 'Badminton', 'Hockey', 'Wrestling', 'Skiing', 'Cycling', 'Surfing', 'Bowling', 'Archery', 'Karate',
-    'Yoga', 'Dancing', 'Climbing', 'Racing', 'Fishing', 'Sailing', 'Skating', 'Diving', 'Gymnastics', 'Martial Arts'
   ],
   'Objects': [
     'Phone', 'Car', 'Book', 'Chair', 'Computer', 'Watch', 'Camera', 'Guitar', 'Bicycle', 'Umbrella',
@@ -39,11 +24,6 @@ export const categories = {
     'Satellite', 'GPS', 'Bluetooth', 'WiFi', 'Social Media', 'Video Call', 'Cloud Storage', 'Cryptocurrency', 'Streaming', 'App Store',
     '3D Printer', 'Electric Car', 'Solar Panel', 'Fitness Tracker', 'Smart TV', 'Voice Assistant', 'Wireless Charger', 'Podcast', 'Emoji', 'QR Code'
   ],
-  'Indian Movies': [
-    'Dangal', 'Baahubali', 'KGF', 'RRR', 'Pushpa', 'Lagaan', 'Taare Zameen Par', 'Zindagi Na Milegi Dobara', 'Queen', 'Pink',
-    'Andhadhun', 'Article 15', 'Tumhari Sulu', 'Stree', 'Badhaai Ho', 'Uri', 'Mission Mangal', 'Super 30', 'Chhichhore', 'Gully Boy',
-    'Kabir Singh', 'War', 'Student of the Year', 'Yeh Jawaani Hai Deewani', 'Bajrangi Bhaijaan', 'PK', '3 Idiots', 'My Name is Khan', 'Sholay', 'Mughal-e-Azam'
-  ],
   'Indian Serials': [
     'Sacred Games', 'Delhi Crime', 'Scam 1992', 'The Family Man', 'Arya', 'Mumbai Diaries 26/11', 'Rocket Boys', 'SonyLIV Scam', 'Maharani', 'Tabbar',
     'Kyunki Saas Bhi Kabhi Bahu Thi', 'Kahaani Ghar Ghar Kii', 'Balika Vadhu', 'Naagin', 'Kasautii Zindagii Kay', 'Bade Achhe Lagte Hain', 'Pavitra Rishta', 'Saath Nibhaana Saathiya',
@@ -58,11 +38,6 @@ export const categories = {
     'APJ Abdul Kalam', 'Mahatma Gandhi', 'Jawaharlal Nehru', 'Indira Gandhi', 'Subhas Chandra Bose', 'Bhagat Singh', 'Rani Lakshmibai', 'Chandragupta Maurya', 'Akbar', 'Shah Rukh Khan',
     'Amitabh Bachchan', 'Priyanka Chopra', 'Deepika Padukone', 'Aamir Khan', 'Salman Khan', 'AR Rahman', 'Lata Mangeshkar', 'Ratan Tata', 'Mukesh Ambani', 'Sundar Pichai',
     'Satya Nadella', 'Kiran Mazumdar Shaw', 'Mary Kom', 'PV Sindhu', 'Saina Nehwal', 'Milkha Singh', 'Sania Mirza', 'Vishwanathan Anand', 'CV Raman', 'Homi Bhabha'
-  ],
-  'Indian Food': [
-    'Biryani', 'Butter Chicken', 'Dosa', 'Idli', 'Samosa', 'Pani Puri', 'Chole Bhature', 'Rajma Chawal', 'Dal Makhani', 'Tandoori Chicken',
-    'Masala Chai', 'Gulab Jamun', 'Rasgulla', 'Jalebi', 'Kheer', 'Halwa', 'Pakora', 'Dhokla', 'Vada Pav', 'Misal Pav',
-    'Rogan Josh', 'Vindaloo', 'Fish Curry', 'Appam', 'Puttu', 'Upma', 'Poha', 'Aloo Paratha', 'Makki Ki Roti', 'Sarson Ka Saag'
   ],
   'Indian States': [
     'Maharashtra', 'Karnataka', 'Tamil Nadu', 'Kerala', 'Gujarat', 'Rajasthan', 'Punjab', 'Haryana', 'Uttar Pradesh', 'Madhya Pradesh',
@@ -123,6 +98,39 @@ export const categories = {
     'Superman', 'Batman', 'Wonder Woman', 'Flash', 'Aquaman', 'Green Lantern', 'Cyborg', 'Shazam', 'Green Arrow', 'Supergirl',
     'Batgirl', 'Robin', 'Nightwing', 'Red Hood', 'Harley Quinn', 'Joker', 'Lex Luthor', 'Catwoman', 'Poison Ivy', 'Two-Face',
     'Penguin', 'Riddler', 'Bane', 'Deathstroke', 'Darkseid', 'Doomsday', 'Brainiac', 'General Zod', 'Sinestro', 'Black Adam'
+  ],
+  'Objects': [
+    'Stapler', 'Charger', 'Mobile Phone', 'Rent', 'Toilet', 'Trophy', 'Remote', 'Massage Chair', 'News Paper', 'Band-Aid',
+    'Perfume', 'Comb', 'Footwear', 'Key', 'Nail Cutter', 'Tap', 'Tiles', 'Speaker', 'Video Game', 'Power Bank',
+    'Sunglasses', 'Ring', 'Frame', 'Book', 'Vehicle', 'Blanket', 'Lipstick', 'Computer', 'Window', 'Chair'
+  ],
+  'Sports': [
+    'Carrom', 'Wrestling', 'Cricket', 'Kabaddi', 'Kho Kho', 'Basketball', 'Hockey', 'Volleyball', 'Football', 'Golf',
+    'Gilli Danda', 'Hide N Seek', 'Stone Paper Scissor', 'Mafia', 'Chor Police', 'Marbles', 'Ghar Ghar', 'Ludo', 'Doctor Doctor',
+    'Snakes & Ladders', 'Business', 'Chess', 'PUBG', 'Nadi Paheel', 'Swimming', 'Running', 'Boxing', 'Tennis', 'Badminton', 'Archery'
+  ],
+  'Places': [
+    'Temple', 'Movie Theater', 'Village', 'Bihar', 'Restaurant', 'Bank', 'Jail', 'Police Station', 'Hospital', 'Cemetery',
+    'Ice Cream Parlour', 'Hotel', 'Airport', 'Paan Shop', 'Tea Stall', 'Office', 'Bus Stop', 'Train Station', 'Car Showroom', 'Beach',
+    'Mountains', 'Garden', 'Jewellery Shop', 'Mall', 'Liquor Shop', 'Beer Bar', 'Soda Shop', 'School Government', 'College', 'University'
+  ],
+  'Animals': [
+    'Tiger', 'Pig', 'Dog', 'Cat', 'Leech', 'Donkey', 'Monkey', 'Bear', 'Lion', 'Kangaroo',
+    'Mouse', 'Mongoose', 'Snake', 'Yak', 'Zebra', 'Ant', 'Bat', 'Buffalo', 'Bullock', 'Camel',
+    'Duck', 'Deer', 'Eagle', 'Fish', 'Frog', 'Fox', 'Goat', 'Eel', 'Gorilla', 'Horse',
+    'Hamster', 'Rabbit', 'Squirrel', 'Jaguar', 'Crocodile', 'Panther', 'Chameleon', 'Owl', 'Kite', 'Lobster'
+  ],
+  'Movies': [
+    'Kuch Kuch Hota Hai', 'URI', 'Chak De India', '12th Fail', 'War', 'Sholay', 'Hum Dil De Chuke Sanam', 'Raanj Hona',
+    'Happy New Year', 'Sardat', 'Kai Po Che', 'Kabir Singh', '3 Idiots', 'Bajrangi Bhaijaan', 'Dangal', 'DDLJ', 'Taare Zameen Par',
+    'Rang De Basanti', 'Mother India', 'Munna Bhai MBBS', 'PK', 'Dabangg', 'Devdas', 'Drishyam', 'Chhaava', 'Jawan', 'Stree',
+    'Housefull', 'Singh', 'Baiyaara', 'Coolie', 'My Name is Khan', 'Chhak Up Bud', 'Bhaag Milkha Bhaag', 'Zindagi Na Milegi Dobara'
+  ],
+  'Indian Food': [
+    'Ras Malai', 'Dosa', 'Munches', 'Vada Pav', 'Pav Bhaji', 'Momos', 'Cakes', 'Chole Bhature', 'Chai', 'Buttermilk',
+    'Pasta', 'Noodles', 'Samosa', 'Brownie', 'Frankie', 'Medu Vada', 'Dal Bhat', 'Khichdi', 'Kadhi', 'Gavar',
+    'Aloo Ka Paratha', 'Thepla', 'Dhokla', 'Jalebi', 'Pani Puri', 'Maggi', 'Biryani', 'Wafer', 'Coffee Cold', 'Halwa',
+    'Dal Bati', 'French Fries', 'Paneer Chilli', 'Idli', 'Puran Poli', 'Fried Rice', 'Manchurian', 'Pizza', 'Burger', 'Sandwich'
   ]
 };
 
